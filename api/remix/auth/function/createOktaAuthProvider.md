@@ -1,0 +1,29 @@
+---
+title: createOktaAuthProvider
+source: https://github.com/remix-run/remix/blob/remix@3.0.0-beta.3/packages/auth/src/lib/providers/okta.ts#L26
+---
+
+# createOktaAuthProvider
+
+## Summary
+
+Creates an Okta provider backed by the shared OIDC runtime.
+
+## Signature
+
+```ts
+function createOktaAuthProvider(
+  options: OktaAuthProviderOptions,
+): OAuthProvider<OktaAuthProfile, "okta", OAuthStandardTokens>;
+
+```
+
+## Parameters
+
+### `options`
+
+Okta issuer and client settings for your application.
+
+## Returns
+
+An OAuth provider that can be passed to `startExternalAuth()` and `finishExternalAuth()`.

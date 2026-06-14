@@ -1,0 +1,20 @@
+---
+title: ColumnDefault
+source: https://github.com/remix-run/remix/blob/remix@3.0.0-beta.3/packages/data-table/src/lib/adapter.ts#L183
+---
+
+# ColumnDefault
+
+## Summary
+
+Default value definition for a column.
+
+## Signature
+
+```ts
+type ColumnDefault =
+  | { kind: "literal"; value: unknown }
+  | { kind: "now" }
+  | { expression: string; kind: "sql" };
+
+```

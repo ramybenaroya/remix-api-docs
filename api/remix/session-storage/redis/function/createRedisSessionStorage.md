@@ -1,0 +1,34 @@
+---
+title: createRedisSessionStorage
+source: https://github.com/remix-run/remix/blob/remix@3.0.0-beta.3/packages/session-storage-redis/src/lib/redis-storage.ts#L69
+---
+
+# createRedisSessionStorage
+
+## Summary
+
+Creates a session storage backed by Redis.
+
+## Signature
+
+```ts
+function createRedisSessionStorage(
+  client: RedisSessionStorageClient,
+  options: RedisSessionStorageOptions,
+): SessionStorage;
+
+```
+
+## Parameters
+
+### `client`
+
+Redis client with get/set/del methods
+
+### `options`
+
+Session storage options
+
+## Returns
+
+The session storage
