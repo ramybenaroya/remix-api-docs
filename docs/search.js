@@ -12,6 +12,19 @@
 (function () {
   "use strict";
 
+  // Base path the site is served under (e.g. "/remix-api-docs" for a GitHub
+  // Pages project site, or "" at the domain root). Derived from this script's
+  // own URL so the palette works wherever it's deployed, with no rewrite needed.
+  var BASE = "";
+  var thisScript = document.currentScript;
+  if (thisScript && thisScript.src) {
+    try {
+      BASE = new URL(thisScript.src).pathname.replace(/\/search\.js.*$/, "");
+    } catch (e) {
+      /* keep BASE = "" */
+    }
+  }
+
   // Platform-aware modifier label for the hints ("⌘" on macOS, "Ctrl" elsewhere).
   var IS_MAC = /mac|iphone|ipad|ipod/i.test(
     navigator.platform || navigator.userAgent || "",
@@ -77,7 +90,7 @@
   var candidatesPromise = null;
   function loadCandidates() {
     if (!candidatesPromise) {
-      candidatesPromise = fetch("/search-index.json")
+      candidatesPromise = fetch(BASE + "/search-index.json")
         .then(function (r) {
           return r.json();
         })
@@ -408,7 +421,8 @@
   function go(item) {
     close();
     var hash = item.kind === "heading" ? "#" + item.slug : "";
-    if (normalizePath(location.pathname) === normalizePath(item.route)) {
+    var target = BASE + item.route; // routes in the index are base-relative
+    if (normalizePath(location.pathname) === normalizePath(target)) {
       // Same page: just scroll, no reload.
       if (item.kind === "heading") {
         assignIds();
@@ -417,7 +431,7 @@
       }
       return;
     }
-    location.assign(item.route + hash);
+    location.assign(target + hash);
   }
 
   // --- global shortcuts ---------------------------------------------------
