@@ -22,3 +22,7 @@ pnpm run docs --tag "${TAG_NAME}"
 pnpm run build
 pnpm run prerender --dir "${DOCS_DIR}"
 popd
+
+# Rebuild the command-palette search index and re-inject search.js into the
+# freshly prerendered pages (docs/search.js itself persists across syncs).
+node tools/build-search.mjs
