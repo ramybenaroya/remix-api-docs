@@ -1,8 +1,8 @@
-import * as button from "/assets/pkg/remix/src/ui/button.js";
-import { css } from "/assets/pkg/remix/src/ui.js";
-import { Glyph } from "/assets/pkg/remix/src/ui/glyph.js";
-import { theme } from "/assets/pkg/remix/src/ui/theme.js";
-import { jsx as _jsx, jsxs as _jsxs } from "/assets/pkg/remix/src/ui/jsx-runtime.js";
+import * as button from "/remix-api-docs/assets/pkg/remix/src/ui/button.js";
+import { css } from "/remix-api-docs/assets/pkg/remix/src/ui.js";
+import { Glyph } from "/remix-api-docs/assets/pkg/remix/src/ui/glyph.js";
+import { theme } from "/remix-api-docs/assets/pkg/remix/src/ui/theme.js";
+import { jsx as _jsx, jsxs as _jsxs } from "/remix-api-docs/assets/pkg/remix/src/ui/jsx-runtime.js";
 /**
 * @name Button States
 * @description Buttons support normal, disabled, and busy (loading) states using aria attributes.

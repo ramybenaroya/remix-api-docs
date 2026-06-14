@@ -1,5 +1,5 @@
-import { createMixin } from "/assets/pkg/ui/src/runtime/mixins/mixin.js";
-import { invariant } from "/assets/pkg/ui/src/runtime/invariant.js";
+import { createMixin } from "/remix-api-docs/assets/pkg/ui/src/runtime/mixins/mixin.js";
+import { invariant } from "/remix-api-docs/assets/pkg/ui/src/runtime/invariant.js";
 const DEFAULT_ENTER = {
 	opacity: 0,
 	duration: 150,

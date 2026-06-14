@@ -1,5 +1,5 @@
-import { run } from "/assets/pkg/remix/src/ui.js";
-import { MOBILE_NAV_MAX_HEIGHT_OFFSET, MOBILE_NAV_MAX_VIEWPORT_HEIGHT, MOBILE_NAV_MEDIA_QUERY } from "/assets/shared/breakpoints.js";
+import { run } from "/remix-api-docs/assets/pkg/remix/src/ui.js";
+import { MOBILE_NAV_MAX_HEIGHT_OFFSET, MOBILE_NAV_MAX_VIEWPORT_HEIGHT, MOBILE_NAV_MEDIA_QUERY } from "/remix-api-docs/assets/shared/breakpoints.js";
 let app = run({
 	async loadModule(moduleUrl, exportName) {
 		let mod = await import(moduleUrl);

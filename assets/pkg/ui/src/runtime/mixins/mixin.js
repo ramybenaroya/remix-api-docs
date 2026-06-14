@@ -1,6 +1,6 @@
-import { jsx } from "/assets/pkg/ui/src/runtime/jsx.js";
-import { TypedEventTarget } from "/assets/pkg/ui/src/runtime/typed-event-target.js";
-import { invariant } from "/assets/pkg/ui/src/runtime/invariant.js";
+import { jsx } from "/remix-api-docs/assets/pkg/ui/src/runtime/jsx.js";
+import { TypedEventTarget } from "/remix-api-docs/assets/pkg/ui/src/runtime/typed-event-target.js";
+import { invariant } from "/remix-api-docs/assets/pkg/ui/src/runtime/invariant.js";
 export function renderMixinElement(element, props) {
 	let { key, ...rest } = props ?? {};
 	return jsx(element, rest, key);

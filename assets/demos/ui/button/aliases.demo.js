@@ -1,7 +1,7 @@
-import { Button } from "/assets/pkg/remix/src/ui/button.js";
-import { css } from "/assets/pkg/remix/src/ui.js";
-import { theme } from "/assets/pkg/remix/src/ui/theme.js";
-import { jsx as _jsx, jsxs as _jsxs } from "/assets/pkg/remix/src/ui/jsx-runtime.js";
+import { Button } from "/remix-api-docs/assets/pkg/remix/src/ui/button.js";
+import { css } from "/remix-api-docs/assets/pkg/remix/src/ui.js";
+import { theme } from "/remix-api-docs/assets/pkg/remix/src/ui/theme.js";
+import { jsx as _jsx, jsxs as _jsxs } from "/remix-api-docs/assets/pkg/remix/src/ui/jsx-runtime.js";
 /**
 * @name Button Component
 * @description The Button component wraps the low-level style primitives and accepts a tone prop for quick theming.

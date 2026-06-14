@@ -1,6 +1,6 @@
-import { createMixin, renderMixinElement } from "/assets/pkg/ui/src/runtime/mixins/mixin.js";
-import { navigate } from "/assets/pkg/ui/src/runtime/navigation.js";
-import { on } from "/assets/pkg/ui/src/runtime/mixins/on-mixin.js";
+import { createMixin, renderMixinElement } from "/remix-api-docs/assets/pkg/ui/src/runtime/mixins/mixin.js";
+import { navigate } from "/remix-api-docs/assets/pkg/ui/src/runtime/navigation.js";
+import { on } from "/remix-api-docs/assets/pkg/ui/src/runtime/mixins/on-mixin.js";
 const nativeLinkHostTypes = new Set(["a", "area"]);
 /**
 * Adds client-side navigation behavior to anchor-like elements.

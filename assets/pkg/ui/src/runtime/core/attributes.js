@@ -1,5 +1,5 @@
-import { normalizeCssValue } from "/assets/pkg/ui/src/style/style.js";
-import { normalizeSvgAttribute } from "/assets/pkg/ui/src/runtime/svg-attributes.js";
+import { normalizeCssValue } from "/remix-api-docs/assets/pkg/ui/src/style/style.js";
+import { normalizeSvgAttribute } from "/remix-api-docs/assets/pkg/ui/src/runtime/svg-attributes.js";
 const ATTRIBUTE_FALLBACK_NAMES = new Set([
 	"width",
 	"height",

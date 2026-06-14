@@ -1,4 +1,4 @@
-import { createMixin, on } from "/assets/pkg/ui/src/index.js";
+import { createMixin, on } from "/remix-api-docs/assets/pkg/ui/src/index.js";
 const scrollLocks = new WeakMap();
 export function lockScroll(targetDocument = globalThis.document) {
 	if (!targetDocument?.body || !targetDocument.defaultView) {

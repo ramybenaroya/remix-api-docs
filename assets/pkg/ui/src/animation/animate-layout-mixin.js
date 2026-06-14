@@ -1,4 +1,4 @@
-import { createMixin } from "/assets/pkg/ui/src/runtime/mixins/mixin.js";
+import { createMixin } from "/remix-api-docs/assets/pkg/ui/src/runtime/mixins/mixin.js";
 const DEFAULT_DURATION = 200;
 const DEFAULT_EASING = "ease-out";
 const SCALE_PRECISION = 1e-4;

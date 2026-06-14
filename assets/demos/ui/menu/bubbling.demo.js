@@ -1,5 +1,5 @@
-import { Menu, MenuItem, onMenuSelect } from "/assets/pkg/remix/src/ui/menu.js";
-import { jsx as _jsx, jsxs as _jsxs } from "/assets/pkg/remix/src/ui/jsx-runtime.js";
+import { Menu, MenuItem, onMenuSelect } from "/remix-api-docs/assets/pkg/remix/src/ui/menu.js";
+import { jsx as _jsx, jsxs as _jsxs } from "/remix-api-docs/assets/pkg/remix/src/ui/jsx-runtime.js";
 /**
 * @name Menu Event Bubbling
 * @description Item-level handlers fire before the root handler, letting individual items intercept events while others bubble up.

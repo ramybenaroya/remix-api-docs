@@ -1,6 +1,6 @@
-import { attrs, createElement, createMixin, css } from "/assets/pkg/ui/src/index.js";
-import { theme } from "/assets/pkg/ui/src/theme/theme.js";
-import { jsx as _jsx, jsxs as _jsxs } from "/assets/pkg/ui/src/jsx-runtime.js";
+import { attrs, createElement, createMixin, css } from "/remix-api-docs/assets/pkg/ui/src/index.js";
+import { theme } from "/remix-api-docs/assets/pkg/ui/src/theme/theme.js";
+import { jsx as _jsx, jsxs as _jsxs } from "/remix-api-docs/assets/pkg/ui/src/jsx-runtime.js";
 const ghostButtonToneCss = css({
 	backgroundColor: "transparent",
 	backgroundImage: "none",

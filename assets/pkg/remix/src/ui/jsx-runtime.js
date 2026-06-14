@@ -1,2 +1,2 @@
 // IMPORTANT: This file is auto-generated, please do not edit manually.
-export * from "/assets/pkg/ui/src/jsx-runtime.js";
+export * from "/remix-api-docs/assets/pkg/ui/src/jsx-runtime.js";

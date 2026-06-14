@@ -1,4 +1,4 @@
-import { createMixin } from "/assets/pkg/ui/src/runtime/mixins/mixin.js";
+import { createMixin } from "/remix-api-docs/assets/pkg/ui/src/runtime/mixins/mixin.js";
 /**
 * Calls a callback when an element is inserted and aborts it when removed.
 */

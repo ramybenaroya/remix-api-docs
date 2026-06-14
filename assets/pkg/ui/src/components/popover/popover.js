@@ -1,8 +1,8 @@
-import { attrs, createMixin, css, on } from "/assets/pkg/ui/src/index.js";
-import { anchor as positionAnchor } from "/assets/pkg/ui/src/components/anchor/anchor.js";
-import { onOutsideClick } from "/assets/pkg/ui/src/interactions/outside-click/outside-click-mixin.js";
-import { theme } from "/assets/pkg/ui/src/theme/theme.js";
-import { lockScroll } from "/assets/pkg/ui/src/utils/scroll-lock.js";
+import { attrs, createMixin, css, on } from "/remix-api-docs/assets/pkg/ui/src/index.js";
+import { anchor as positionAnchor } from "/remix-api-docs/assets/pkg/ui/src/components/anchor/anchor.js";
+import { onOutsideClick } from "/remix-api-docs/assets/pkg/ui/src/interactions/outside-click/outside-click-mixin.js";
+import { theme } from "/remix-api-docs/assets/pkg/ui/src/theme/theme.js";
+import { lockScroll } from "/remix-api-docs/assets/pkg/ui/src/utils/scroll-lock.js";
 const popupViewportClampMaxHeight = "50dvh";
 const popoverSurfaceTransitionCss = css({
 	opacity: 0,

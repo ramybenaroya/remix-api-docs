@@ -1,4 +1,4 @@
-import { createRemixElement } from "/assets/pkg/ui/src/runtime/core/vnode.js";
+import { createRemixElement } from "/remix-api-docs/assets/pkg/ui/src/runtime/core/vnode.js";
 export function jsx(type, props, key) {
 	return createRemixElement(type, props, key);
 }

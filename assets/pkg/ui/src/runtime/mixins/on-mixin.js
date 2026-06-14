@@ -1,4 +1,4 @@
-import { createMixin } from "/assets/pkg/ui/src/runtime/mixins/mixin.js";
+import { createMixin } from "/remix-api-docs/assets/pkg/ui/src/runtime/mixins/mixin.js";
 const onMixinType = (handle) => {
 	let currentHandler = () => {};
 	let currentType = "";

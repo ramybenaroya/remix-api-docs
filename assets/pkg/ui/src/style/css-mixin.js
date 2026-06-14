@@ -1,6 +1,6 @@
-import { createMixin, renderMixinElement } from "/assets/pkg/ui/src/runtime/mixins/mixin.js";
-import { invariant } from "/assets/pkg/ui/src/runtime/invariant.js";
-import { processStyleClass } from "/assets/pkg/ui/src/style/index.js";
+import { createMixin, renderMixinElement } from "/remix-api-docs/assets/pkg/ui/src/runtime/mixins/mixin.js";
+import { invariant } from "/remix-api-docs/assets/pkg/ui/src/runtime/invariant.js";
+import { processStyleClass } from "/remix-api-docs/assets/pkg/ui/src/style/index.js";
 const clientStyleCache = new Map();
 /**
 * Applies generated class names for CSS object styles.

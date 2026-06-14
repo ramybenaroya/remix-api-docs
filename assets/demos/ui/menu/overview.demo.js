@@ -1,6 +1,6 @@
-import { Menu, MenuItem, onMenuSelect, Submenu } from "/assets/pkg/remix/src/ui/menu.js";
-import { separatorStyle } from "/assets/pkg/remix/src/ui/separator.js";
-import { jsx as _jsx, jsxs as _jsxs } from "/assets/pkg/remix/src/ui/jsx-runtime.js";
+import { Menu, MenuItem, onMenuSelect, Submenu } from "/remix-api-docs/assets/pkg/remix/src/ui/menu.js";
+import { separatorStyle } from "/remix-api-docs/assets/pkg/remix/src/ui/separator.js";
+import { jsx as _jsx, jsxs as _jsxs } from "/remix-api-docs/assets/pkg/remix/src/ui/jsx-runtime.js";
 /**
 * @name Menu Overview
 * @description A hierarchical menu with checkboxes, radio groups, submenus, and separators.

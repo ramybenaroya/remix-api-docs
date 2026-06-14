@@ -1,9 +1,9 @@
-import { createFrame } from "/assets/pkg/ui/src/runtime/frame.js";
-import { createScheduler } from "/assets/pkg/ui/src/runtime/vdom.js";
-import { createStyleManager } from "/assets/pkg/ui/src/style/index.js";
-import { createComponentErrorEvent } from "/assets/pkg/ui/src/runtime/error-event.js";
-import { startNavigationListener } from "/assets/pkg/ui/src/runtime/navigation.js";
-import { TypedEventTarget } from "/assets/pkg/ui/src/runtime/typed-event-target.js";
+import { createFrame } from "/remix-api-docs/assets/pkg/ui/src/runtime/frame.js";
+import { createScheduler } from "/remix-api-docs/assets/pkg/ui/src/runtime/vdom.js";
+import { createStyleManager } from "/remix-api-docs/assets/pkg/ui/src/style/index.js";
+import { createComponentErrorEvent } from "/remix-api-docs/assets/pkg/ui/src/runtime/error-event.js";
+import { startNavigationListener } from "/remix-api-docs/assets/pkg/ui/src/runtime/navigation.js";
+import { TypedEventTarget } from "/remix-api-docs/assets/pkg/ui/src/runtime/typed-event-target.js";
 let topFrame;
 /**
 * Returns the top-level frame handle for the running application.

@@ -1,5 +1,5 @@
-import { Fragment, Frame } from "/assets/pkg/ui/src/runtime/component.js";
-import { isRemixElement } from "/assets/pkg/ui/src/runtime/core/vnode.js";
+import { Fragment, Frame } from "/remix-api-docs/assets/pkg/ui/src/runtime/component.js";
+import { isRemixElement } from "/remix-api-docs/assets/pkg/ui/src/runtime/core/vnode.js";
 export { isRemixElement };
 export const TEXT_NODE = Symbol("TEXT_NODE");
 export const NON_RENDER_NODE = Symbol("NON_RENDER_NODE");

@@ -1,4 +1,4 @@
-import { createMixin } from "/assets/pkg/ui/src/index.js";
+import { createMixin } from "/remix-api-docs/assets/pkg/ui/src/index.js";
 const onOutsideClick = createMixin((handle) => {
 	let active = false;
 	let handler = () => {};

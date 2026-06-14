@@ -1,8 +1,8 @@
-import { createDocumentState } from "/assets/pkg/ui/src/runtime/document-state.js";
-import { createComponentErrorEvent } from "/assets/pkg/ui/src/runtime/error-event.js";
-import { isCommittedComponentNode } from "/assets/pkg/ui/src/runtime/vnode.js";
-import { findNextSiblingDomAnchor, renderComponent, setActiveSchedulerUpdateParents } from "/assets/pkg/ui/src/runtime/reconcile.js";
-import { defaultStyleManager } from "/assets/pkg/ui/src/runtime/diff-props.js";
+import { createDocumentState } from "/remix-api-docs/assets/pkg/ui/src/runtime/document-state.js";
+import { createComponentErrorEvent } from "/remix-api-docs/assets/pkg/ui/src/runtime/error-event.js";
+import { isCommittedComponentNode } from "/remix-api-docs/assets/pkg/ui/src/runtime/vnode.js";
+import { findNextSiblingDomAnchor, renderComponent, setActiveSchedulerUpdateParents } from "/remix-api-docs/assets/pkg/ui/src/runtime/reconcile.js";
+import { defaultStyleManager } from "/remix-api-docs/assets/pkg/ui/src/runtime/diff-props.js";
 // Protect against infinite cascading updates (e.g. handle.update() during render)
 const MAX_CASCADING_UPDATES = 50;
 /**

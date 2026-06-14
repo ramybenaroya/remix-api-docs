@@ -1,4 +1,4 @@
-import { getTopFrame, getNamedFrame } from "/assets/pkg/ui/src/runtime/run.js";
+import { getTopFrame, getNamedFrame } from "/remix-api-docs/assets/pkg/ui/src/runtime/run.js";
 /**
 * Performs a Navigation API transition understood by Remix frame runtime state.
 *

@@ -1,5 +1,5 @@
-import { jsx } from "/assets/pkg/ui/src/runtime/jsx.js";
-import { normalizeChildren } from "/assets/pkg/ui/src/runtime/core/children.js";
+import { jsx } from "/remix-api-docs/assets/pkg/ui/src/runtime/jsx.js";
+import { normalizeChildren } from "/remix-api-docs/assets/pkg/ui/src/runtime/core/children.js";
 /**
 * Creates a Remix virtual element from a JSX-like call signature.
 *

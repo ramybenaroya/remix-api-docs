@@ -1,6 +1,6 @@
-import { createGlyphSheet } from "/assets/pkg/ui/src/components/glyph/glyph.js";
-import { createTheme } from "/assets/pkg/ui/src/theme/runtime.js";
-import { glyphValues } from "/assets/pkg/ui/src/theme/presets/rmx-01/glyphs.js";
+import { createGlyphSheet } from "/remix-api-docs/assets/pkg/ui/src/components/glyph/glyph.js";
+import { createTheme } from "/remix-api-docs/assets/pkg/ui/src/theme/runtime.js";
+import { glyphValues } from "/remix-api-docs/assets/pkg/ui/src/theme/presets/rmx-01/glyphs.js";
 export const RMX_01 = createTheme({
 	space: {
 		none: "0px",

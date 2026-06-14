@@ -1,4 +1,4 @@
-import { createElement } from "/assets/pkg/ui/src/index.js";
+import { createElement } from "/remix-api-docs/assets/pkg/ui/src/index.js";
 const defaultViewBox = "0 0 16 16";
 function symbol(...content) {
 	return createElement("symbol", { viewBox: defaultViewBox }, ...content);

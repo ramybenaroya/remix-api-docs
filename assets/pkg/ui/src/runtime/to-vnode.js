@@ -1,7 +1,7 @@
-import { Fragment } from "/assets/pkg/ui/src/runtime/component.js";
-import { invariant } from "/assets/pkg/ui/src/runtime/invariant.js";
-import { isEmptyChild, isPrimitiveChild, normalizeChildren } from "/assets/pkg/ui/src/runtime/core/children.js";
-import { isRemixElement, NON_RENDER_NODE, TEXT_NODE } from "/assets/pkg/ui/src/runtime/vnode.js";
+import { Fragment } from "/remix-api-docs/assets/pkg/ui/src/runtime/component.js";
+import { invariant } from "/remix-api-docs/assets/pkg/ui/src/runtime/invariant.js";
+import { isEmptyChild, isPrimitiveChild, normalizeChildren } from "/remix-api-docs/assets/pkg/ui/src/runtime/core/children.js";
+import { isRemixElement, NON_RENDER_NODE, TEXT_NODE } from "/remix-api-docs/assets/pkg/ui/src/runtime/vnode.js";
 function flatMapChildrenToVNodes(node) {
 	if (!("children" in node.props)) return [];
 	let children = node.props.children;

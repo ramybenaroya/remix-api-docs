@@ -1,5 +1,5 @@
-import { createElement } from "/assets/pkg/ui/src/index.js";
-import { glyphContract, glyphNames } from "/assets/pkg/ui/src/theme/glyph-contract.js";
+import { createElement } from "/remix-api-docs/assets/pkg/ui/src/index.js";
+import { glyphContract, glyphNames } from "/remix-api-docs/assets/pkg/ui/src/theme/glyph-contract.js";
 export function createGlyphSheet(values) {
 	let ids = Object.freeze(Object.fromEntries(glyphNames.map((name) => [name, glyphContract[name].id])));
 	function GlyphSheet(handle) {

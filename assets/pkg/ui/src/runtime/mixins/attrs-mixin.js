@@ -1,5 +1,5 @@
-import { createMixin } from "/assets/pkg/ui/src/runtime/mixins/mixin.js";
-import { createElement } from "/assets/pkg/ui/src/runtime/create-element.js";
+import { createMixin } from "/remix-api-docs/assets/pkg/ui/src/runtime/mixins/mixin.js";
+import { createElement } from "/remix-api-docs/assets/pkg/ui/src/runtime/create-element.js";
 const attrsMixin = createMixin((handle) => (defaults, props) => {
 	let nextProps = props;
 	for (let key in defaults) {

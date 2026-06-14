@@ -1,7 +1,7 @@
-import { css } from "/assets/pkg/remix/src/ui.js";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "/assets/pkg/remix/src/ui/accordion.js";
-import { theme } from "/assets/pkg/remix/src/ui/theme.js";
-import { jsx as _jsx, jsxs as _jsxs } from "/assets/pkg/remix/src/ui/jsx-runtime.js";
+import { css } from "/remix-api-docs/assets/pkg/remix/src/ui.js";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "/remix-api-docs/assets/pkg/remix/src/ui/accordion.js";
+import { theme } from "/remix-api-docs/assets/pkg/remix/src/ui/theme.js";
+import { jsx as _jsx, jsxs as _jsxs } from "/remix-api-docs/assets/pkg/remix/src/ui/jsx-runtime.js";
 /**
 * @name Accordion Overview
 * @description A single-open disclosure list that keeps settings, billing, or notification rules in one calm section.

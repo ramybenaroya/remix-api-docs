@@ -1,4 +1,4 @@
-import { invariant } from "/assets/pkg/ui/src/runtime/invariant.js";
+import { invariant } from "/remix-api-docs/assets/pkg/ui/src/runtime/invariant.js";
 export function diffNodes(curr, next, context) {
 	let parent = curr[0]?.parentNode ?? context.regionParent ?? null;
 	invariant(parent, "Parent node not found");

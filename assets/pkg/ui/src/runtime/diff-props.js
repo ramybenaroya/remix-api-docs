@@ -1,7 +1,7 @@
-import { invariant } from "/assets/pkg/ui/src/runtime/invariant.js";
-import { createStyleManager } from "/assets/pkg/ui/src/style/index.js";
+import { invariant } from "/remix-api-docs/assets/pkg/ui/src/runtime/invariant.js";
+import { createStyleManager } from "/remix-api-docs/assets/pkg/ui/src/style/index.js";
 let globalStyleManager = typeof window !== "undefined" ? createStyleManager() : null;
-export { patchHostProps as diffHostProps } from "/assets/pkg/ui/src/runtime/core/props.js";
+export { patchHostProps as diffHostProps } from "/remix-api-docs/assets/pkg/ui/src/runtime/core/props.js";
 export let defaultStyleManager = globalStyleManager;
 /**
 * Reset the global style state. For testing only - not exported from index.ts.

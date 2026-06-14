@@ -1,5 +1,5 @@
-import { canUseProperty, getMergedClassName, isBooleanishStringAttribute, normalizeAttributeName, serializeStyleObject, toKebabCase } from "/assets/pkg/ui/src/runtime/core/attributes.js";
-import { normalizeCssValue } from "/assets/pkg/ui/src/style/style.js";
+import { canUseProperty, getMergedClassName, isBooleanishStringAttribute, normalizeAttributeName, serializeStyleObject, toKebabCase } from "/remix-api-docs/assets/pkg/ui/src/runtime/core/attributes.js";
+import { normalizeCssValue } from "/remix-api-docs/assets/pkg/ui/src/style/style.js";
 const SVG_NS = "http://www.w3.org/2000/svg";
 function isFrameworkProp(name) {
 	return name === "children" || name === "mix" || name === "key" || name === "animate" || name === "innerHTML" || name === "on";

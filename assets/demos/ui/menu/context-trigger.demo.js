@@ -1,9 +1,9 @@
-import { css } from "/assets/pkg/remix/src/ui.js";
-import * as menu from "/assets/pkg/remix/src/ui/menu.js";
-import { MenuItem, MenuList, onMenuSelect, Submenu } from "/assets/pkg/remix/src/ui/menu.js";
-import { separatorStyle } from "/assets/pkg/remix/src/ui/separator.js";
-import { theme } from "/assets/pkg/remix/src/ui/theme.js";
-import { jsx as _jsx, jsxs as _jsxs } from "/assets/pkg/remix/src/ui/jsx-runtime.js";
+import { css } from "/remix-api-docs/assets/pkg/remix/src/ui.js";
+import * as menu from "/remix-api-docs/assets/pkg/remix/src/ui/menu.js";
+import { MenuItem, MenuList, onMenuSelect, Submenu } from "/remix-api-docs/assets/pkg/remix/src/ui/menu.js";
+import { separatorStyle } from "/remix-api-docs/assets/pkg/remix/src/ui/separator.js";
+import { theme } from "/remix-api-docs/assets/pkg/remix/src/ui/theme.js";
+import { jsx as _jsx, jsxs as _jsxs } from "/remix-api-docs/assets/pkg/remix/src/ui/jsx-runtime.js";
 const actionLabelByName = {
 	copyPath: "Copied path",
 	duplicate: "Duplicated file",

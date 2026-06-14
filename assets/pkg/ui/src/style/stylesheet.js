@@ -1,4 +1,4 @@
-import { REMIX_UI_STYLE_LAYER } from "/assets/pkg/ui/src/style/layers.js";
+import { REMIX_UI_STYLE_LAYER } from "/remix-api-docs/assets/pkg/ui/src/style/layers.js";
 const SERVER_STYLE_SELECTOR = "style[data-rmx]";
 function getStyleLayerName(className, layer = REMIX_UI_STYLE_LAYER) {
 	return `${layer}.${className}`;

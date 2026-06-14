@@ -1,8 +1,8 @@
-import { css, createElement, on, ref } from "/assets/pkg/ui/src/index.js";
-import { spring } from "/assets/pkg/ui/src/animation/index.js";
-import { Glyph } from "/assets/pkg/ui/src/components/glyph/glyph.js";
-import { theme } from "/assets/pkg/ui/src/theme/theme.js";
-import { jsx as _jsx, jsxs as _jsxs } from "/assets/pkg/ui/src/jsx-runtime.js";
+import { css, createElement, on, ref } from "/remix-api-docs/assets/pkg/ui/src/index.js";
+import { spring } from "/remix-api-docs/assets/pkg/ui/src/animation/index.js";
+import { Glyph } from "/remix-api-docs/assets/pkg/ui/src/components/glyph/glyph.js";
+import { theme } from "/remix-api-docs/assets/pkg/ui/src/theme/theme.js";
+import { jsx as _jsx, jsxs as _jsxs } from "/remix-api-docs/assets/pkg/ui/src/jsx-runtime.js";
 const ACCORDION_CHANGE_EVENT = "rmx:accordion-change";
 export class AccordionChangeEvent extends Event {
 	accordionType;

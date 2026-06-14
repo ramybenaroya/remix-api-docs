@@ -1,6 +1,6 @@
-import { createElement } from "/assets/pkg/ui/src/index.js";
-import { REMIX_UI_RESET_LAYER, REMIX_UI_STYLE_LAYER } from "/assets/pkg/ui/src/style/layers.js";
-import { theme, themeVariableNames } from "/assets/pkg/ui/src/theme/contract.js";
+import { createElement } from "/remix-api-docs/assets/pkg/ui/src/index.js";
+import { REMIX_UI_RESET_LAYER, REMIX_UI_STYLE_LAYER } from "/remix-api-docs/assets/pkg/ui/src/style/layers.js";
+import { theme, themeVariableNames } from "/remix-api-docs/assets/pkg/ui/src/theme/contract.js";
 export function createTheme(values, options = {}) {
 	let selector = options.selector ?? ":root";
 	let reset = options.reset ?? true;

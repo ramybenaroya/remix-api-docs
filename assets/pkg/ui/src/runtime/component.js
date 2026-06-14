@@ -1,4 +1,4 @@
-import { TypedEventTarget } from "/assets/pkg/ui/src/runtime/typed-event-target.js";
+import { TypedEventTarget } from "/remix-api-docs/assets/pkg/ui/src/runtime/typed-event-target.js";
 /**
 * Creates the internal runtime wrapper for a component instance.
 *

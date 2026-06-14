@@ -1,5 +1,5 @@
-import { css } from "/assets/pkg/ui/src/index.js";
-import { theme } from "/assets/pkg/ui/src/theme/theme.js";
+import { css } from "/remix-api-docs/assets/pkg/ui/src/index.js";
+import { theme } from "/remix-api-docs/assets/pkg/ui/src/theme/theme.js";
 const itemInset = `var(--rmx-ui-item-inset, ${theme.space.sm})`;
 const itemIndicatorHalfInset = "calc((var(--rmx-ui-item-indicator-width, 0px) + var(--rmx-ui-item-indicator-gap, 0px)) / 2)";
 const separatorCss = css({
